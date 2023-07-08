@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body>
+    
+    <div>
+        <header class=" bg-cyan-200 w-full p-3" >
+            <nav class="container items-center flex flex-row justify-between mx-auto">
+            <h2 >Adidas</h2>
+            <div class="hidden md:flex flex-row text-xl gap-7">
+                   <a href="#">Home</a>
+                   <a href="#">Products</a>
+                   <a href="#">Service</a>
+                   <a href="#">Contact</a>
+             </div>
+            
+            <div class="text-4xl items-center md:hidden">
+               &#x21c5;<!--entity-->
+            </div>
+            </nav>
+        </header>
+
+        <content class="h-screen w-full p-2">
+            <div class="container mx-auto flex items-center gap-5 font-bold text-xl">
+                <img class="w-1/2 shadow-lg shadow-red-500" src="./12.jpg"/>
+                <div class="w1/2 flex flex-col gap-5"></div>
+                <p class="1/2 flex flex-row">
+                    Give your feet the beauty treatment that only brand new shoes can give</p>
+                   <p cla="1/2" ><span class="text-red-600"> Your feet will never feel the same again.</span>
+                </p>
+
+            </div>
+
+        </content>
+    </div>
+
+    <footer class="w-full p-5 bg-slate-200 h-[40vh]">
+        <div class="flex flex-row container border border-slate-800 rounded-xl p-3">
+            <div class="flex  w-1/4 flex-col">
+                <h2 class="font-bold text-xl">About</h2>
+                <p> Give your feet the beauty treatment that only brand new shoes can give</p>
+            </div>
+            <div class="flex flex-col">
+                <h2 class="font-bold text-xl">Navigation</h2>
+            </div>
+            <div class="flex flex-col"></div>
+            <div class="flex flex-col"></div>
+
+        </div>
+
+
+    </footer>
+</body>
+</html>
